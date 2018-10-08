@@ -1,11 +1,11 @@
 plugins:
   - babel
 
- env:
+env:
   node: true
 
- extends:
+extends:
   - 'airbnb-base'
   
- rules:
+rules:
   no-console: 0 
