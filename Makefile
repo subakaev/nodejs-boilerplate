@@ -1,15 +1,18 @@
 install:
 	npm install
 
- start:
+start:
 	npm run babel-node -- src/
 
- build:
+build:
 	rm -rf dist
 	npm run build
 
- publish:
+publish:
 	npm publish
 
- lint:
+lint:
 	npm run eslint .
+
+test:
+	npm test
